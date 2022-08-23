@@ -30,7 +30,7 @@ GitHub account.
 
 ### Clone the repo you just forked
 ```bash
-git clone git@github.com:your-github-username/takenote-bug-squash
+git clone https://github.com/your-github-username/takenote-bug-squash.git
 cd takenote-bug-squash
 npm i
 ```
