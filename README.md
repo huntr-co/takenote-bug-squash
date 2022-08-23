@@ -24,9 +24,13 @@ The test: try to find and fix as many of these bugs within the allotted time.
 
 ## Installation
 
-### Clone the repo
+### Fork the repo
+Go to https://github.com/huntr-co/takenote-bug-squash and fork the repo to your personal
+GitHub account.
+
+### Clone the repo you just forked
 ```bash
-git clone git@github.com:huntr-co/takenote-bug-squash
+git clone git@github.com:your-github-username/takenote-bug-squash
 cd takenote-bug-squash
 npm i
 ```
