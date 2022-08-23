@@ -10,24 +10,24 @@ a simple note taking application built with React, Redux, Redux-Saga, ExpressJS,
 The persistence layer of the project is pretty unique and unusual; when a note is
 added or modified it saves that information into a Github repository into
 JSON files (it does this by hooking up to Github's API and actually committing the
-update into the existing json file). Because of the unusual persistence layer here,
+update into the existing json file 🤯). Because of the unusual persistence layer here,
 we won't be touching most of this section of the application.
 
 ## The Test
 
-We've introduced 11 bugs into the codebase. These bugs are scattered across the front
+We've introduced *11 bugs* into the codebase. These bugs are scattered across the front
 and backend portions of the codebase; the bulk of them in the front end. These bugs
 are apparent when running the project by either crashing the front/back-end, or
 visually look off.
 
-The test is for you to try to find and fix as many of these bugs within the allotted time.
+The test: try to find and fix as many of these bugs within the allotted time.
 
 ## Installation
 
 ### Clone the repo
 ```bash
-git clone git@github.com:renniehaylock/takenote
-cd takenote
+git clone git@github.com:huntr-co/takenote-bug-squash
+cd takenote-bug-squash
 npm i
 ```
 
@@ -41,7 +41,7 @@ Click the **New OAuth App** button.
 - **Homepage URL**: `http://localhost:3000`
 - **Authorization callback URL**: `http://localhost:3000/api/auth/callback`
 
-Create a `.env` file in the root of the project, and add the app's client ID and secret. Remove `DEMO` variable to enable GitHub integration.
+Create a `.env` file in the root of the project, and add the app's client ID and secret.
 
 ```bash
 CLIENT_ID=xxx
