@@ -15,7 +15,7 @@ we won't be touching most of this section of the application.
 
 ## The Test
 
-We've introduced *11 bugs* into the codebase. These bugs are scattered across the front
+We've introduced _11 bugs_ into the codebase. These bugs are scattered across the front
 and backend portions of the codebase; the bulk of them in the front end. These bugs
 are apparent when running the project by either crashing the front/back-end, or
 visually look off.
@@ -25,10 +25,12 @@ The test: try to find and fix as many of these bugs within the allotted time.
 ## Installation
 
 ### Fork the repo
+
 Go to https://github.com/huntr-co/takenote-bug-squash and fork the repo to your personal
 GitHub account.
 
 ### Clone the repo you just forked
+
 ```bash
 git clone https://github.com/your-github-username/takenote-bug-squash.git
 cd takenote-bug-squash
@@ -51,11 +53,6 @@ Create a `.env` file in the root of the project, and add the app's client ID and
 CLIENT_ID=xxx
 CLIENT_SECRET=xxxx
 ```
-
-### (For Mac only) Disable Airplay Receiver sharing to open up port 5000
-
-Running the app in Mac will crash due to port 5000 being used. To fix this:
-Go to System Settings > Sharing > Disable 'AirPlay Receiver'.
 
 ### Run the app
 
