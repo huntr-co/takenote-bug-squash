@@ -15,7 +15,7 @@ metadata:
   name: takenote
   labels:
     app: takenote
-    component: server  
+    component: server
 spec:
   replicas: 1
   selector:
@@ -29,8 +29,8 @@ spec:
         component: server
     spec:
       containers:
-      - image: <your_alias/takenote:latest> 
-        name: takenote         
+      - image: <your_alias/takenote:latest>
+        name: takenote
         env:
         - name: CLIENT_ID
           valueFrom:
@@ -45,7 +45,7 @@ spec:
         - name: NODE_ENV
           value: development
         ports:
-        - containerPort: 5000
+        - containerPort: 5001
           name: web
 ---
 apiVersion: v1
@@ -59,7 +59,7 @@ spec:
   ports:
     - protocol: TCP
       port: 8080
-      targetPort: 5000
+      targetPort: 5001
       name: web
   selector:
     app: takenote
